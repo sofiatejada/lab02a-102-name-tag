@@ -1,0 +1,58 @@
+body, html {
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: ivory;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+content {
+    background-color: red;
+    height: 240px;
+    width: 340px;
+    border-radius: 15px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+
+.nameis {
+    margin-top: 1px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px
+}
