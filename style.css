@@ -44,7 +44,7 @@ h1 {
     font-size: 30px;
 }
 
-.name {
+.name, .add {
     font-size: 30px;
     font-style: italic;
     font-family: cursive;
