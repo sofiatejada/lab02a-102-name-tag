@@ -45,5 +45,5 @@ const add = document.getElementById("add");
 pronoun.addEventListener('click', () => {
     
     //add.textContent = select.value;
-    userName.textContent = userInput.value + select.value;
+    userName.textContent = userInput.value + " (" + select.value + ")";
 })
